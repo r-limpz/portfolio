@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-center space-x-10">
         <div v-for="edu in educ"
-            class=" h-48 p-5 border border-gray-500 rounded-lg shadow-sm">
+            class=" h-48 max-h-[180px] p-5 border border-gray-500 rounded-lg shadow-sm">
             <div class=" space-y-8">
                 <div class="">
                     <h5 class="mb-2 text-md font-bold tracking-tight"> {{ edu.course }} </h5>

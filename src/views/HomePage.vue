@@ -1,10 +1,10 @@
 <template>
-    <div class=" space-y-10 flex-col relative h-screen overflow-auto">
-        <section class="h-[90vh] w-auto max-w-[1080px] mx-auto grid">
+    <div class=" space-y-20 flex-col relative h-screen overflow-auto">
+        <section class="h-[90vh] max-h-[900px] w-auto max-w-[1080px] mx-auto grid">
             <div class="flex justify-between self-center space-x-10">
-                <div class="p-3 space-y-10">
+                <div class="space-y-10">
                     <div>
-                        <h1 class="font-bold text-7xl uppercase">
+                        <h1 class="font-bold uppercase">
                             <p class="text-4xl"> Hello I am </p>
                             <p class=" text-cyan-300 text-7xl"> Rex Limpangog</p>
                         </h1>
@@ -26,22 +26,17 @@
             </div>
         </section>
 
-        <section class="h-[70vh] w-auto max-w-[1080px] mx-auto self-center grid" id="services">
+        <section class="h-[70vh] max-h-[500px] w-auto max-w-[1080px] mx-auto self-center grid" id="services">
             <h1 class="text-center text-4xl font-bold"> Services Offer</h1>
             <CardsOffers />
         </section>
 
-        <section class="h-[50vh] w-auto max-w-[1080px] mx-auto space-y-5 self-center grid" id="education">
-            <h1 class="text-center text-4xl font-bold"> Education</h1>
+        <section class="h-[70vh] max-h-[350px] w-auto max-w-[1080px] mx-auto self-center grid" id="education">
+            <h1 class="text-center text-4xl font-bold">Education</h1>
             <CardsEduc />
         </section>
 
-        <section class=" w-auto max-w-[1080px] mx-auto self-center grid" id="projects">
-            <h1 class="text-center text-4xl font-bold"> Projects</h1>
-
-        </section>
-
-        <section class="max-w-[1080px] mx-auto self-center grid" id="projects">
+        <section class="max-h-[900px] max-w-[1080px] mx-auto self-center grid" id="projects">
             <div class="p-5 flex justify-between items-center">
                     <span> Rex Limpangog</span>
                     <Socials />
